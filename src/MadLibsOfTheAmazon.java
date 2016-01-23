@@ -17,6 +17,7 @@ String verb1 = JOptionPane.showInputDialog("Type a verb.");
 		// Get the user to enter a place
 String place1 = JOptionPane.showInputDialog("Type a place.");
 		// Fit the user's words into this sentence, and save it in a String:
+JOptionPane.showMessageDialog(null, "Piranhas are more " +adj1+" during the day, so cross the river at night. Piranhas are attracted to fresh " +liquid1+" and will most likely take a bite out of your "+body1+" if you "+verb1+". Whatever you do, if you have an open wound, try to find another way to get back to the "+place1+". Good luck!");
 		// Piranhas are more [adjective] during the day, so cross the river at
 		// night. Piranhas are attracted to fresh [type of liquid] and will most
 		// likely take a bite out of your [body part] if you [verb]. Whatever
