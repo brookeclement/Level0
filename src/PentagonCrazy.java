@@ -15,7 +15,7 @@ brooke.penDown();
 brooke.setSpeed(10);
 		
 		
-int sides = 5;
+
 		
 int angle = 360/5;
 		
@@ -23,7 +23,7 @@ for(int i=0; i< 200;i++){
 		
 	brooke.move(i);
 			
-	brooke.setPenWidth(20);
+	brooke.setPenWidth(1);
 	
 			
 	brooke.turn(angle+1);
