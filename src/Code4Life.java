@@ -19,7 +19,24 @@ public class Code4Life {
 		 */
 		String hours = JOptionPane.showInputDialog("How many hours have you coded this week?");
 
-		// private static void playBatmanTheme() {
+		int hourNum = Integer.parseInt(hours);
+		if(hourNum < 3)
+		{
+			JOptionPane.showMessageDialog(null, "Stop watching YouTube and write code instead!");
+		}
+		
+		else if(hourNum > 5)
+		{
+			playBatmanTheme();
+		}
+		else if(hourNum > 3)
+		{
+			JOptionPane.showMessageDialog(null, "You're a code ninja!"); 
+		}
+		
+		
+	}
+		private static void playBatmanTheme() {
 		try {
 			AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("/Users/League/Google Drive/league-sounds/batman.wav"));
 			Clip clip = AudioSystem.getClip();
@@ -32,4 +49,3 @@ public class Code4Life {
 	}
 
 }
-// }
